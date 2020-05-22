@@ -22,7 +22,7 @@ render(){
   return (
     <div className="App">
       <h1> Todo List App </h1>
-      <h2>By The Frontend Master Sophonias</h2>
+      <h2>By Sophonias</h2>
 <form onSubmit={this.newItemAdd}> 
 <input type="text" placeholder="add items" value={this.state.value} onChange={this.handleChange}/>
 <button>add </button>
